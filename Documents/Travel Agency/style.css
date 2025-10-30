@@ -1,0 +1,40 @@
+
+body {
+  font-family: 'Arial', sans-serif;
+  scroll-behavior: smooth;
+}
+
+
+.hero {
+  background: url('https://images.unsplash.com/photo-1600891964599-f61ba0e24092?auto=format&fit=crop&w=1600&q=80') center/cover no-repeat;
+  height: 80vh;
+  position: relative;
+}
+
+.hero::before {
+  content: "";
+  position: absolute;
+   background-color: rgba(0, 0, 0, 0.5);
+}
+
+.hero-content {
+  position: relative;
+  
+}
+
+.card img {
+  height: 250px;
+  object-fit: cover;
+}
+
+
+footer a:hover {
+  color: #fff;
+}
+
+
+@media (max-width: 768px) {
+  .hero {
+    height: 60vh;
+  }
+}
