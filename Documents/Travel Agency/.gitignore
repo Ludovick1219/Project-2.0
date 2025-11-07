@@ -1,0 +1,52 @@
+# Windows system files
+[Tt]humbs.db
+[Dd]esktop.ini
+
+# Windows Installer files
+*.cab
+*.msi
+*.msix
+*.msm
+*.msp
+
+# Windows shortcuts
+*.lnk
+
+# User-specific files
+*.rsuser
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# User directories
+/[Aa]ppData/
+/Application Data/
+/Cookies/
+/Local Settings/
+/My Documents/
+/NetHood/
+/PrintHood/
+/Recent/
+/SendTo/
+/Start Menu/
+/Templates/
+/Contacts/
+/3D Objects/
+/Favorites/
+/Links/
+/Music/
+/Pictures/
+/Saved Games/
+/Searches/
+/Videos/
+
+# VS Code directories
+.vscode/
+
+# Cache and temporary files
+.cache/
+*.log
+
+# Project specific
+desktop.ini
