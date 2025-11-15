@@ -1,0 +1,30 @@
+Begin
+  
+    Set length ← 0
+    Set word_count ← 1
+    Set vowel_count ← 0
+ 
+    Read character
+
+    While character ≠ '.' do
+
+        length ← length + 1
+    
+        If character = ' ' then
+            word_count ← word_count + 1
+        EndIf
+  
+        If character is one of {'a','e','i','o','u','A','E','I','O','U'} then
+            vowel_count ← vowel_count + 1
+        EndIf
+           
+        Read character
+
+    EndWhile
+
+    
+    Write "Length of the sentence: ", length
+    Write "Number of words: ", word_count
+    Write "Number of vowels: ", vowel_count
+
+EndAlgorithm
